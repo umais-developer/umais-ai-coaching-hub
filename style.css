@@ -40,6 +40,7 @@ body {
     transition: var(--transition);
     display: flex;
     align-items: center;
+    gap: 12px;
 }
 
 .navbar-brand:hover {
@@ -48,16 +49,33 @@ body {
 }
 
 .navbar-logo {
-    height: 60px;
-    width: auto;
+    height: 50px;
+    width: 50px;
     object-fit: contain;
     transition: var(--transition);
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
 }
 
 .navbar-brand:hover .navbar-logo {
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
-    transform: translateY(-2px) scale(1.05);
+    filter: drop-shadow(0 4px 12px rgba(102, 126, 234, 0.4));
+    transform: translateY(-2px) scale(1.1);
+}
+
+.brand-text {
+    font-weight: 700;
+    font-size: 1.3rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: none;
+    transition: var(--transition);
+}
+
+@media (min-width: 992px) {
+    .brand-text {
+        display: inline;
+    }
 }
 
 .nav-link {
