@@ -1,10 +1,11 @@
 /* Root Variables */
 :root {
-    --primary-color: #0d6efd;
-    --secondary-color: #6c757d;
-    --dark-color: #212529;
-    --light-color: #f8f9fa;
+    --primary-color: #6c63ff;
+    --secondary-color: #8b8fa8;
+    --dark-color: #1a1a2e;
+    --light-color: #f0f4ff;
     --accent-color: #ff6b6b;
+    --accent-secondary: #4fc3f7;
     --transition: all 0.3s ease;
 }
 
@@ -24,6 +25,8 @@ body {
     line-height: 1.6;
     color: var(--dark-color);
     overflow-x: hidden;
+    background: linear-gradient(160deg, #f5f7ff 0%, #eef2ff 50%, #f3f0ff 100%);
+    background-attachment: fixed;
 }
 
 /* Navbar */
@@ -59,7 +62,7 @@ body {
 .hero-section {
     position: relative;
     min-height: 100vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4158d0 0%, #7c3aed 40%, #c850c0 75%, #ff6b6b 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,17 +99,17 @@ body {
 }
 
 .btn-primary {
-    background-color: var(--accent-color);
+    background: linear-gradient(135deg, #7c3aed 0%, #c850c0 100%);
     border: none;
     font-weight: 600;
     transition: var(--transition);
-    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4);
 }
 
 .btn-primary:hover {
-    background-color: #e55555;
+    background: linear-gradient(135deg, #6d28d9 0%, #b8409a 100%);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+    box-shadow: 0 6px 20px rgba(124, 58, 237, 0.55);
 }
 
 /* Animation */
@@ -128,18 +131,18 @@ body {
 
 /* Video Carousel Section */
 #videos {
-    background: var(--light-color);
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 60%, #1a1640 100%);
     position: relative;
 }
 
 #videos h2 {
-    color: var(--dark-color);
+    color: #ffffff;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 #videos .lead {
-    color: var(--secondary-color);
+    color: rgba(255, 255, 255, 0.7);
     font-size: 1.1rem;
 }
 
@@ -304,6 +307,7 @@ body {
 /* About Section */
 #about {
     padding: 80px 0;
+    background: linear-gradient(135deg, #f0f4ff 0%, #ede9fe 100%) !important;
 }
 
 #about h2 {
@@ -321,14 +325,14 @@ body {
 .about-image-placeholder {
     width: 100%;
     aspect-ratio: 1;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4158d0 0%, #7c3aed 50%, #c850c0 100%);
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 10rem;
     color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 10px 40px rgba(124, 58, 237, 0.35);
 }
 
 #about h5 {
@@ -343,7 +347,7 @@ body {
 
 /* Contact Section */
 #contact {
-    background: white;
+    background: linear-gradient(135deg, #ffffff 0%, #f5f3ff 50%, #fdf2f8 100%);
 }
 
 #contact h2 {
@@ -358,7 +362,9 @@ body {
 }
 
 .contact-card {
-    background: var(--light-color);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(108, 99, 255, 0.12);
     padding: 40px 20px;
     border-radius: 12px;
     transition: var(--transition);
@@ -366,7 +372,7 @@ body {
 
 .contact-card:hover {
     background: white;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 25px rgba(108, 99, 255, 0.15);
     transform: translateY(-5px);
 }
 
