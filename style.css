@@ -63,7 +63,6 @@ body {
     width: auto;
     object-fit: contain;
     transition: var(--transition);
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .navbar-brand:hover .navbar-logo {
