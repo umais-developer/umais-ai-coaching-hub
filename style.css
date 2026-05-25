@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-logo {
-    height: 55px;
+    height: 60px;
     width: auto;
     object-fit: contain;
     transition: var(--transition);
@@ -56,8 +56,8 @@ body {
 }
 
 .navbar-brand:hover .navbar-logo {
-    filter: drop-shadow(0 4px 8px rgba(102, 126, 234, 0.3));
-    transform: translateY(-2px);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+    transform: translateY(-2px) scale(1.05);
 }
 
 .nav-link {
