@@ -6,6 +6,10 @@
     <meta name="description" content="Umais Siddiqui Coaching for AI - Learn AI and Machine Learning from industry experts">
     <title>Umais Siddiqui - AI Coaching</title>
 
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -15,7 +19,7 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#home">
                 <img src="logo.svg" alt="Umais AI Coaching" class="navbar-logo">
@@ -37,30 +41,34 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero-section">
-        <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="row align-items-center min-vh-100">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h1 class="display-3 fw-bold mb-4 animate-fade-in">
-                        Master AI & Machine Learning
+                <div class="col-lg-10 mx-auto text-center">
+                    <h1 class="display-3 mb-4 animate-fade-in">
+                        AI <span class="highlight">coaching</span> and <span class="highlight">tutorials</span> that transform your skills
                     </h1>
-                    <p class="lead mb-5 text-light animate-fade-in" style="animation-delay: 0.2s;">
-                        Learn from industry experts. Transform your career. Build the future.
+                    <p class="lead mb-5 animate-fade-in" style="animation-delay: 0.15s;">
+                        Learn from industry experts. Build real-world AI applications. Master machine learning.
                     </p>
-                    <a href="#videos" class="btn btn-primary btn-lg px-5 animate-fade-in" style="animation-delay: 0.4s;">
-                        <i class="fas fa-play-circle"></i> Watch Videos
-                    </a>
+                    <div class="d-flex gap-3 justify-content-center animate-fade-in" style="animation-delay: 0.3s;">
+                        <a href="#videos" class="btn btn-primary btn-lg px-4">
+                            Watch Videos
+                        </a>
+                        <a href="#about" class="btn btn-outline-light btn-lg px-4">
+                            Learn More
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Video Carousel Section -->
-    <section id="videos" class="py-5">
+    <section id="videos">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Featured Video Tutorials</h2>
-                <p class="lead text-muted">Explore our latest AI and Machine Learning tutorials</p>
+                <h2 class="display-5 mb-3">Featured tutorials</h2>
+                <p class="lead">Explore our latest AI and machine learning content</p>
             </div>
 
             <div class="video-carousel">
@@ -84,9 +92,9 @@
                         </div>
                         <div class="card-content">
                             <h5 class="card-title">AI Fundamentals</h5>
-                            <p class="card-text text-muted">Learn the basics of Artificial Intelligence and its applications</p>
+                            <p class="card-text">Learn the basics of Artificial Intelligence and its applications</p>
                             <div class="card-meta">
-                                <small class="text-primary"><i class="fas fa-clock"></i> 12:30</small>
+                                <small class="card-meta-time"><i class="fas fa-clock"></i> 12:30</small>
                             </div>
                         </div>
                     </div>
@@ -106,9 +114,9 @@
                         </div>
                         <div class="card-content">
                             <h5 class="card-title">Deep Learning Guide</h5>
-                            <p class="card-text text-muted">Master neural networks and deep learning architectures</p>
+                            <p class="card-text">Master neural networks and deep learning architectures</p>
                             <div class="card-meta">
-                                <small class="text-primary"><i class="fas fa-clock"></i> 15:45</small>
+                                <small class="card-meta-time"><i class="fas fa-clock"></i> 15:45</small>
                             </div>
                         </div>
                     </div>
@@ -128,9 +136,9 @@
                         </div>
                         <div class="card-content">
                             <h5 class="card-title">Natural Language Processing</h5>
-                            <p class="card-text text-muted">Understand how machines process and understand human language</p>
+                            <p class="card-text">Understand how machines process and understand human language</p>
                             <div class="card-meta">
-                                <small class="text-primary"><i class="fas fa-clock"></i> 18:20</small>
+                                <small class="card-meta-time"><i class="fas fa-clock"></i> 18:20</small>
                             </div>
                         </div>
                     </div>
@@ -150,9 +158,9 @@
                         </div>
                         <div class="card-content">
                             <h5 class="card-title">Computer Vision Basics</h5>
-                            <p class="card-text text-muted">Learn how AI interprets and analyzes images and videos</p>
+                            <p class="card-text">Learn how AI interprets and analyzes images and videos</p>
                             <div class="card-meta">
-                                <small class="text-primary"><i class="fas fa-clock"></i> 14:10</small>
+                                <small class="card-meta-time"><i class="fas fa-clock"></i> 14:10</small>
                             </div>
                         </div>
                     </div>
@@ -172,9 +180,9 @@
                         </div>
                         <div class="card-content">
                             <h5 class="card-title">Practical AI Applications</h5>
-                            <p class="card-text text-muted">Real-world AI projects and use cases you can implement today</p>
+                            <p class="card-text">Real-world AI projects and use cases you can implement today</p>
                             <div class="card-meta">
-                                <small class="text-primary"><i class="fas fa-clock"></i> 16:50</small>
+                                <small class="card-meta-time"><i class="fas fa-clock"></i> 16:50</small>
                             </div>
                         </div>
                     </div>
@@ -194,9 +202,9 @@
                         </div>
                         <div class="card-content">
                             <h5 class="card-title">AI Ethics & Responsible AI</h5>
-                            <p class="card-text text-muted">Understanding the ethical implications of artificial intelligence</p>
+                            <p class="card-text">Understanding the ethical implications of artificial intelligence</p>
                             <div class="card-meta">
-                                <small class="text-primary"><i class="fas fa-clock"></i> 13:30</small>
+                                <small class="card-meta-time"><i class="fas fa-clock"></i> 13:30</small>
                             </div>
                         </div>
                     </div>
@@ -210,30 +218,30 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-5 bg-light">
+    <section id="about">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="col-lg-5 mb-4 mb-lg-0">
                     <div class="about-image-placeholder">
-                        <i class="fas fa-user-circle"></i>
+                        <i class="fas fa-user"></i>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <h2 class="display-5 fw-bold mb-4">About Umais Siddiqui</h2>
-                    <p class="lead mb-3">
-                        With years of experience in AI and machine learning, Umais Siddiqui is passionate about making cutting-edge technology accessible to everyone.
+                <div class="col-lg-6 offset-lg-1">
+                    <h2 class="display-5 mb-4">About Umais Siddiqui</h2>
+                    <p class="lead mb-4">
+                        With years of experience in AI and machine learning, I'm passionate about making cutting-edge technology accessible to everyone.
                     </p>
                     <p class="mb-4">
                         Through comprehensive tutorials, practical examples, and real-world projects, I help students and professionals master artificial intelligence and build solutions that matter.
                     </p>
-                    <div class="row">
+                    <div class="row mt-4">
                         <div class="col-md-6 mb-3">
-                            <h5 class="text-primary"><i class="fas fa-check-circle"></i> Expert Instructor</h5>
-                            <p class="text-muted">Years of industry experience</p>
+                            <h5><i class="fas fa-check-circle"></i> Expert Instructor</h5>
+                            <p>Years of industry experience</p>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <h5 class="text-primary"><i class="fas fa-check-circle"></i> Practical Focus</h5>
-                            <p class="text-muted">Real-world applications</p>
+                            <h5><i class="fas fa-check-circle"></i> Practical Focus</h5>
+                            <p>Real-world applications</p>
                         </div>
                     </div>
                 </div>
@@ -242,12 +250,12 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-5">
+    <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="display-5 fw-bold mb-4">Get In Touch</h2>
-                    <p class="lead mb-5 text-muted">Have questions? Want to collaborate? Let's connect!</p>
+                    <h2 class="display-5 mb-4">Get in touch</h2>
+                    <p class="lead">Have questions? Want to collaborate? Let's connect.</p>
 
                     <div class="row mb-5">
                         <div class="col-md-4 mb-3 mb-md-0">
@@ -293,17 +301,17 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-light py-4 mt-5">
+    <footer class="text-light">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <p class="mb-0"><strong>Umais Siddiqui AI Coaching</strong> © 2024. All rights reserved.</p>
+                    <p class="mb-0"><strong>Umais Siddiqui AI Coaching</strong> <span style="opacity: 0.6;">&copy; 2024</span></p>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="text-light me-3"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="text-light"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
